@@ -1,0 +1,17 @@
+footer {
+ height: 130px;
+ background-color: map-get($colors, 'mediumdark-color');
+ text-align: center;
+ color: map-get($colors, 'primarylight-color');
+ padding-bottom: 30px;
+
+}
+
+
+.footer-text {
+  margin-top: 0px;
+}
+
+span {
+  color: map-get($colors, 'cta-color');
+}

@@ -5,8 +5,24 @@
 
 body,div,span,applet,object,iframe,a,img {
   margin: 0;
-  font-family: 'Roboto', san-serif;
-}/* VIEW SIZE  *//* COLORS WEBSITE */.reasons {
+  font-family: 'Roboto Slab', san-serif;
+}/* VIEW SIZE  *//* COLORS WEBSITE */footer {
+  height: 130px;
+  background-color: #304268;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.footer-text {
+  margin-top: 0px;
+}
+
+span {
+  color: #f26002;
+}
+
+.reasons {
   text-align: center;
   background-color: #eff9ff;
   padding-left: 15px;
@@ -16,13 +32,12 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .rows-container {
-  margin: 0;
-  padding-left: 70px;
-  padding-right: 70px;
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
-  grid-gap: 30px;
+  margin: 0 auto;
+  width: 184px;
+}
+
+.row {
+  margin-top: 45px;
 }
 
 .introduction {
@@ -54,6 +69,15 @@ body,div,span,applet,object,iframe,a,img {
   background-position: center;
 }
 
+.arrow-up {
+  background-color: #fff;
+  background-image: url("../images/ico-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -20px;
+  position: relative;
+}
+
 .gointro {
   margin-top: 30px;
   margin-bottom: 45px;
@@ -76,7 +100,7 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .more-button {
-  margin-top: 45px;
+  margin-top: 20px;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
@@ -110,6 +134,8 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .hero-title {
+  margin: 0 auto;
+  width: 290px;
   font-size: 42px;
   font-weight: bold;
   line-height: 1.31;

@@ -9,6 +9,14 @@
   background-position: center;
 }
 
+.arrow-up {
+  background-color: map-get($colors, 'primarylight-color');
+  background-image: url('../images/ico-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -20px;
+  position: relative;
+}
 
 .gointro {
   margin-top: 30px;
@@ -27,13 +35,13 @@
 
 
 .gointro:hover {
-    background-color: map-get($colors, 'cta-color');;
-    color: map-get($colors, 'primarylight-color');;
+    background-color: map-get($colors, 'cta-color');
+    color: map-get($colors, 'primarylight-color');
 }
 
 
 .more-button {
-  margin-top: 45px;
+  margin-top: 20px;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;

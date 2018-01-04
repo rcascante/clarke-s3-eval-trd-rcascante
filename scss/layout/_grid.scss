@@ -8,11 +8,10 @@
 
 
 .rows-container {
-  margin: 0;
-  padding-left: 70px;
-  padding-right: 70px;
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
-  grid-gap: 30px;
+  margin: 0 auto;
+  width: 184px;
+}
+
+.row {
+  margin-top: 45px;
 }
