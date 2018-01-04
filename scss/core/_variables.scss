@@ -1,0 +1,25 @@
+//ABSOLUTE
+* {
+  box-sizing: border-box;
+}
+
+
+//BODY
+body,div,span,applet,object,iframe,a, img {
+  margin: 0;
+  font-family: 'Roboto', san-serif;
+
+}
+
+
+/* VIEW SIZE  */
+$view-height: 100vh;
+
+/* COLORS WEBSITE */
+$colors: (
+  primarylight-color: #fff,
+  secondarylight-color: #8ccbea,
+  medium-color: #4a4a4a,
+  dark-color: #000,
+  cta-color: #FF8100,
+)

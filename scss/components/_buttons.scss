@@ -1,0 +1,10 @@
+.circle-button {
+  @include sizeButton();
+}
+
+.arrow-down {
+  background-color: map-get($colors, 'primarylight-color');
+  background-image: url('../images/ico-scroll-down.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

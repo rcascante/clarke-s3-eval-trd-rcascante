@@ -1,0 +1,65 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,div,span,applet,object,iframe,a,img {
+  margin: 0;
+  font-family: 'Roboto', san-serif;
+}/* VIEW SIZE  *//* COLORS WEBSITE */.introduction {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.prefix {
+  color: #8ccbea;
+  margin-top: 30px;
+}
+
+.introduction-text {
+  color: #4a4a4a;
+}
+
+.circle-button {
+  display: block;
+  margin: auto;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+}
+
+.arrow-down {
+  background-color: #fff;
+  background-image: url("../images/ico-scroll-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 254px 15px 174px;
+}
+
+.light-color {
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.31;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.hero-subtitle {
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+/*# sourceMappingURL=main.css.map */

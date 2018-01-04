@@ -1,0 +1,12 @@
+@mixin sizeButton() {
+  display: block;
+  margin: auto;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+}
+
+@mixin paddingmobile() {
+  padding-left: 15px;
+  padding-right: 15px;
+}
