@@ -6,7 +6,26 @@
 body,div,span,applet,object,iframe,a,img {
   margin: 0;
   font-family: 'Roboto', san-serif;
-}/* VIEW SIZE  *//* COLORS WEBSITE */.introduction {
+}/* VIEW SIZE  *//* COLORS WEBSITE */.reasons {
+  text-align: center;
+  background-color: #eff9ff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.rows-container {
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+  grid-gap: 30px;
+}
+
+.introduction {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -33,6 +52,47 @@ body,div,span,applet,object,iframe,a,img {
   background-image: url("../images/ico-scroll-down.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.gointro {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  background-color: #fff;
+  outline: none;
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;
+  color: #f26002;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.gointro:hover {
+  background-color: #f26002;
+  color: #fff;
+}
+
+.more-button {
+  margin-top: 45px;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  background-color: #f26002;
+  outline: none;
+  border: solid 2px #f26002;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.more-button:hover {
+  background-color: #fff;
+  color: #f26002;
 }
 
 .hero {

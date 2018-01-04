@@ -8,3 +8,46 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
+.gointro {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  transition-duration: 0.4s;
+  background-color: map-get($colors, 'primarylight-color');
+  outline: none;
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px map-get($colors, 'cta-color');
+  color: #f26002;
+  font-size: 20px;
+	font-weight: 500;
+}
+
+
+.gointro:hover {
+    background-color: map-get($colors, 'cta-color');;
+    color: map-get($colors, 'primarylight-color');;
+}
+
+
+.more-button {
+  margin-top: 45px;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  transition-duration: 0.4s;
+  background-color: map-get($colors, 'cta-color');
+  outline: none;
+  border: solid 2px map-get($colors, 'cta-color');
+  color: map-get($colors, 'primarylight-color');
+  font-size: 20px;
+	font-weight: 500;
+}
+
+
+.more-button:hover {
+    background-color: map-get($colors, 'primarylight-color');
+    color: map-get($colors, 'cta-color');
+}

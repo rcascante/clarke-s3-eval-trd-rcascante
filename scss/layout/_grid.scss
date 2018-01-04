@@ -1,0 +1,18 @@
+.reasons {
+  text-align: center;
+  background-color: map-get($colors, 'tertiarylight-color');
+  @include paddingmobile();
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+
+.rows-container {
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+  grid-gap: 30px;
+}
