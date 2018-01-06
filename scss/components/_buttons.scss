@@ -1,5 +1,9 @@
 .circle-button {
-  @include sizeButton();
+  @include sizeButtonCircle();
+}
+
+.square-button {
+  @include sizeButtonSquare();
 }
 
 .arrow-down {
@@ -58,4 +62,26 @@
 .more-button:hover {
     background-color: map-get($colors, 'primarylight-color');
     color: map-get($colors, 'cta-color');
+}
+
+
+
+/* NAVIGATION */
+
+.open-button {
+	background-color: map-get($colors, 'hamburguer-color');
+  position: absolute;
+  &:hover {
+		background: map-get($colors, 'cta-color');
+	}
+}
+
+
+.close-button {
+  background-color: map-get($colors, 'cta-color');
+  position: absolute;
+  right: -16%;
+	&:hover {
+		background: map-get($colors, 'hamburguer-color');
+	}
 }

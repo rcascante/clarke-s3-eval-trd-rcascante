@@ -1,0 +1,53 @@
+
+/* NAVIGATION LIST*/
+
+.top-nav-menu {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 28px;
+}
+
+.menu-item {
+  color: map-get($colors, 'dark-color');
+  border-bottom: 1px solid map-get($colors, 'secondarylight-color');
+	&:first-child {
+		border-top: 1px solid map-get($colors, 'secondarylight-color');
+	}
+}
+
+.menu-link {
+  text-decoration: none;
+  display: block;
+  padding: 14px 14px;
+  &:hover {
+    color: map-get($colors, 'secondarylight-color');
+  }
+}
+
+
+/* NAVIGATION INTERACTIONS */
+.open-nav-menu {
+	&::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba(map-get($colors, 'dark-color'), 0.6);
+	}
+}
+
+.nav-menu {
+  position: absolute;
+	height: 100%;
+  width: 276px;
+  background: rgba(map-get($colors, 'primarylight-color'), 0.96);
+	left: -100%;
+  top: 0;
+	transition: left ease 0.8s;
+	.open-nav-menu & {
+    left: 0;
+		z-index: 1;
+  }
+}

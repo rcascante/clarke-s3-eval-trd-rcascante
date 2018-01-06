@@ -1,9 +1,19 @@
-@mixin sizeButton() {
+@mixin sizeButtonCircle() {
   display: block;
   margin: auto;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
+  cursor: pointer;
+
+}
+
+@mixin sizeButtonSquare() {
+  width: 44px;
+  height: 44px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 @mixin paddingmobile() {

@@ -60,6 +60,15 @@ span {
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
+  cursor: pointer;
+}
+
+.square-button {
+  width: 44px;
+  height: 44px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .arrow-down {
@@ -117,6 +126,23 @@ span {
 .more-button:hover {
   background-color: #fff;
   color: #f26002;
+}/* NAVIGATION */.open-button {
+  background-color: #0271bc;
+  position: absolute;
+}
+
+.open-button:hover {
+  background: #f26002;
+}
+
+.close-button {
+  background-color: #f26002;
+  position: absolute;
+  right: -16%;
+}
+
+.close-button:hover {
+  background: #0271bc;
 }
 
 .hero {
@@ -146,6 +172,53 @@ span {
 .hero-subtitle {
   margin-top: 10px;
   margin-bottom: 45px;
+}/* NAVIGATION LIST*/.top-nav-menu {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 28px;
+}
+
+.menu-item {
+  color: #000;
+  border-bottom: 1px solid #8ccbea;
+}
+
+.menu-item:first-child {
+  border-top: 1px solid #8ccbea;
+}
+
+.menu-link {
+  text-decoration: none;
+  display: block;
+  padding: 14px 14px;
+}
+
+.menu-link:hover {
+  color: #8ccbea;
+}/* NAVIGATION INTERACTIONS */.open-nav-menu::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.nav-menu {
+  position: absolute;
+  height: 100%;
+  width: 276px;
+  background: rgba(255, 255, 255, 0.96);
+  left: -100%;
+  top: 0;
+  -webkit-transition: left ease 0.8s;
+  transition: left ease 0.8s;
+}
+
+.open-nav-menu .nav-menu {
+  left: 0;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=main.css.map */
