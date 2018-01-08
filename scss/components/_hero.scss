@@ -5,7 +5,13 @@
   background-position: center;
   background-size: cover;
   text-align: center;
-  padding: 254px 15px 174px;
+  padding: 40vh 15px 30vh;
+  @media all and (min-width:768px) {
+    padding: 25vh 39px 30vh;
+  }
+  @media all and (min-width:1280px) {
+    padding: 25vh 275px 30vh;
+   }
 }
 
 .light-color {
@@ -20,9 +26,21 @@
 	line-height: 1.31;
   text-transform: uppercase;
   margin-bottom: 0;
+  @media all and (min-width:768px) {
+    width: 690px;
+    font-size: 80px;
+   }
+   @media all and (min-width:1280px) {
+     width: 730px;
+     font-size: 100px;
+    }
 }
 
 .hero-subtitle {
   margin-top: 10px;
   margin-bottom: 45px;
+  @media all and (min-width:768px) {
+    font-size: 24px;
+   }
+
 }

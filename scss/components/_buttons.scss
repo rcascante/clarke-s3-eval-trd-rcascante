@@ -6,11 +6,16 @@
   @include sizeButtonSquare();
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .arrow-down {
   background-color: map-get($colors, 'primarylight-color');
   background-image: url('../images/ico-scroll-down.svg');
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .arrow-up {
@@ -34,14 +39,15 @@
   border: solid 2px map-get($colors, 'cta-color');
   color: #f26002;
   font-size: 20px;
-	font-weight: 500;
-}
-
-
-.gointro:hover {
+  font-weight: 500;
+  &:hover {
     background-color: map-get($colors, 'cta-color');
     color: map-get($colors, 'primarylight-color');
+  }
 }
+
+
+
 
 
 .more-button {
@@ -55,33 +61,33 @@
   border: solid 2px map-get($colors, 'cta-color');
   color: map-get($colors, 'primarylight-color');
   font-size: 20px;
-	font-weight: 500;
-}
-
-
-.more-button:hover {
+  font-weight: 500;
+  &:hover {
     background-color: map-get($colors, 'primarylight-color');
     color: map-get($colors, 'cta-color');
+  }
 }
 
 
 
-/* NAVIGATION */
-
-.open-button {
-	background-color: map-get($colors, 'hamburguer-color');
-  position: absolute;
-  &:hover {
-		background: map-get($colors, 'cta-color');
-	}
-}
 
 
-.close-button {
-  background-color: map-get($colors, 'cta-color');
-  position: absolute;
-  right: -16%;
-	&:hover {
-		background: map-get($colors, 'hamburguer-color');
-	}
-}
+  /* NAVIGATION */
+
+  .open-button {
+    background-color: map-get($colors, 'hamburguer-color');
+    position: absolute;
+    &:hover {
+      background: map-get($colors, 'cta-color');
+    }
+  }
+
+
+  .close-button {
+    background-color: map-get($colors, 'cta-color');
+    position: absolute;
+    right: -16%;
+    &:hover {
+      background: map-get($colors, 'hamburguer-color');
+    }
+  }

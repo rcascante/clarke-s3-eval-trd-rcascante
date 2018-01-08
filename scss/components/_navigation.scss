@@ -19,10 +19,15 @@
   text-decoration: none;
   display: block;
   padding: 14px 14px;
+  cursor: pointer;
+  &:visited {
+    color: map-get($colors, 'dark-color');
+  }
   &:hover {
     color: map-get($colors, 'secondarylight-color');
   }
 }
+
 
 
 /* NAVIGATION INTERACTIONS */
@@ -45,7 +50,7 @@
   background: rgba(map-get($colors, 'primarylight-color'), 0.96);
 	left: -100%;
   top: 0;
-	transition: left ease 0.8s;
+	transition: left ease 0.6s;
 	.open-nav-menu & {
     left: 0;
 		z-index: 1;

@@ -1,4 +1,5 @@
 .reasons {
+  margin: auto;
   text-align: center;
   background-color: map-get($colors, 'tertiarylight-color');
   @include paddingmobile();
@@ -7,11 +8,19 @@
 }
 
 
-.rows-container {
-  margin: 0 auto;
-  width: 184px;
+.grid-container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  @media all and (min-width:768px) {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px 40px;
+}
 }
 
 .row {
   margin-top: 45px;
+  @media all and (min-width:768px) {
+    margin-top: 20px;
+  }
 }
