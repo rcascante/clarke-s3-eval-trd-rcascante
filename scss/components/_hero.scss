@@ -1,6 +1,6 @@
 .hero {
   height: $view-height;
-  background-image: url('../images/cover.jpg');
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,0.5)),url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,7 +10,9 @@
     padding: 25vh 39px 30vh;
   }
   @media all and (min-width:1280px) {
-    padding: 25vh 275px 30vh;
+    padding: 20vh 275px 30vh;
+    background-position:center top;
+
    }
 }
 
